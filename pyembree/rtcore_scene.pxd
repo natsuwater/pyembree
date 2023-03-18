@@ -1,9 +1,11 @@
+# distutils: language=c++
+
 # rtcore_scene.pxd wrapper
 
 cimport cython
 cimport numpy as np
-cimport rtcore as rtc
-cimport rtcore_ray as rtcr
+cimport pyembree.rtcore as rtc
+cimport pyembree.rtcore_ray as rtcr
 
 cdef extern from "embree2/rtcore_scene.h":
 

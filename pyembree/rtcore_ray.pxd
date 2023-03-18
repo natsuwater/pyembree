@@ -1,3 +1,5 @@
+# distutils: language=c++
+
 # rtcore_ray.pxd wrapper
 
 cimport cython
