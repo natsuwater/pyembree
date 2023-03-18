@@ -1,3 +1,5 @@
+# distutils: language=c++
+
 # rtcore_geometry wrapper
 
 from .rtcore_ray cimport RTCRay, RTCRay4, RTCRay8, RTCRay16

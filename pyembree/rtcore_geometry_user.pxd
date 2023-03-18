@@ -1,3 +1,5 @@
+# distutils: language=c++
+
 # rtcore_geometry_user wrapper
 
 #from libc.stdint cimport ssize_t, size_t

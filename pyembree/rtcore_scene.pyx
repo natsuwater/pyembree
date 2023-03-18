@@ -1,11 +1,13 @@
+# distutils: language=c++
+
 cimport cython
 cimport numpy as np
 import numpy as np
 import logging
 import numbers
-cimport rtcore as rtc
-cimport rtcore_ray as rtcr
-cimport rtcore_geometry as rtcg
+cimport pyembree.rtcore as rtc
+cimport pyembree.rtcore_ray as rtcr
+cimport pyembree.rtcore_geometry as rtcg
 
 
 log = logging.getLogger('pyembree')
